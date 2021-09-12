@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+    /* 
+    ==============================================================
+                      TOP HEADER AREA CSS STYLE START
+    ==============================================================
+    */
+
+h1 {
+    font-size: 50px;
+}
+
+p {
+    color: #707070;
+    margin: 20px 0;
+}
+
+
+.top-header-area {
+    overflow: hidden;
+    background: url("../images/header-bg.png") no-repeat center center / cover;
+}
+
+.containear {
+    width: 80%;
+    margin: 50px auto;
+}
+
+.half-witdh-50 {
+    width: 48%;
+    float: left;
+}
+
+.author-name {
+    color: #ec4c7a;
+}
+
+.half-witdh-50 img {
+    width: 100%;
+}
+
+#topHeaderContent {
+	margin: 15% 0 0 4%;
+}
+
+.ancor-btn {
+    display: inline-block;
+    padding: 15px 40px;
+    color: #fff;
+    background: linear-gradient(45deg,#e91e63,#c2185b);
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+    /* 
+    ==============================================================
+                      TOP HEADER AREA CSS STYLE END
+    ==============================================================
+    */
+
+    /* 
+    ==============================================================
+                      SECOND CONTENT CSS STYLE START
+    ==============================================================
+    */
+
+#secondContentArea {
+    margin: 15% 0 0 4%;
+}
+
+.second-content-area {
+    overflow: hidden;
+    background: url("../images/biography-bg.png") no-repeat center center / cover;
+}
+
+    /* 
+    ==============================================================
+                      SECOND CONTENT CSS STYLE END
+    ==============================================================
+    */
+
+    /* 
+    ==============================================================
+                      MY LASTED WORK CSS STYLE START
+    ==============================================================
+    */
+
+
+.my-lasted-work {
+    background: url("../images/latest-work-bg.png") no-repeat center center / 100% 120%;
+    padding: 50px 0;
+}
+
+.work-list-item {
+    overflow: hidden;
+}
+
+.w-30 {
+    width: 30%;
+    float: left;
+    margin: 0 3% 0 0;
+}
+
+.header-content {
+    text-align: center;
+    padding: 50px 0;
+}
+
+
+.w-30 img {
+    width: 100%;
+}
+
+    /* 
+    ==============================================================
+                      MY LASTED WORK CSS STYLE END
+    ==============================================================
+    */
+
+    /* 
+    ==============================================================
+                      CLIENT NEED AREA START
+    ==============================================================
+    */
+
+
+.client-need {
+    background: url("../images/footer-bg.png") no-repeat center center / cover;
+}
+
+.center-content {
+    text-align: center;
+}
+
+.ceo-founder {
+    width: 70%;
+    margin: auto;
+}
+
+.box {
+	width: 60%;
+	margin: auto;
+	background: linear-gradient(45deg,#ec4f91,#ed4b71);
+	color: #fff;
+	padding: 30px 0;
+	border-radius: 20px;
+}
+
+#ancor-btn {
+	text-decoration: none;
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+	display: inline-block;
+	margin: 20px 0;
+}
+    /* 
+    ==============================================================
+                      CLIENT NEED AREA END
+    ==============================================================
+    */
+
+    /* 
+    ==============================================================
+                      FOTTER AREA START
+    ==============================================================
+    */
+.footer-area {
+    background: url("../images/footer-bg.png") no-repeat center center / cover;
+}
+
+     /* 
+    ==============================================================
+                      FOTTER AREA END
+    ==============================================================
+    */
+
+     /* 
+    ==============================================================
+                        ALL HOVER AREA START
+    ==============================================================
+    */
+
+img {
+    transition: 1s;
+}
+
+.work-list-item {
+    overflow: hidden;
+}
+
+.work-list-item img:hover {
+    transform: scale(1.1);
+}
+
+a {
+    transition: 1s;
+    position: relative;
+    z-index: 0;
+}
+
+.ancor-btn::before,
+.ancor-btn::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transition: 1s;
+}
+
+.ancor-btn::before {
+    transition-delay: 0.1s;
+
+}
+
+.ancor-btn::after {
+    transition-delay: 0s;
+}
+
+.ancor-btn:hover::before {
+    background: rgb(0, 0, 0);
+    color: red;
+    z-index: -1;
+    border-radius: 10px;
+    transition-delay: 0.5s;
+}
+.ancor-btn:hover::after {
+    background: rgb(170, 199, 6);
+    color: red;
+    z-index: -1;
+    border-radius: 10px;
+    transition-delay: 1s;
+}
+
+.author-name {
+    transition: 1s;
+}
+
+.author-name:hover {
+    color: rgb(4, 192, 4);
+}
+
+.img-area img:hover {
+    transform: scale(0.9);
+}
+
+.magic {
+    transition: 1s;
+}
+
+#magic:hover {
+    transition: 1s;
+    color: rgb(212, 140, 5);
+}
